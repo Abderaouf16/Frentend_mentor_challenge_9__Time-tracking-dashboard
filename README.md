@@ -28,18 +28,21 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+-- desktop view
+![Alt text](images/desktop%20screenshot.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+![Alt text](images/destop%20weekly%20preview.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Alt text](images/desktop%20monthly%20preview.png)
+-- mobile view
 
-image.png
+![Alt text](images/moblie%20screenshot.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/Abderaouf16/Frentend_mentor_challenge_9__Time-tracking-dashboard)
+- Live Site URL: [Live website](https://abderaouf16.github.io/Frentend_mentor_challenge_9__Time-tracking-dashboard/)
 
 ## My process
 
@@ -75,4 +78,5 @@ input[type="radio"]:checked + label {
 ## Author
 
 - Github - [Abderaouf16](https://github.com/Abderaouf16)
+- LinkdeDIN - [KHAMOUM Abderaouf](https://www.linkedin.com/in/abderaouf-khamoum-657527260/)
 - Frontend Mentor - [@Abderaouf16](https://www.frontendmentor.io/profile/Abderaouf16)'
