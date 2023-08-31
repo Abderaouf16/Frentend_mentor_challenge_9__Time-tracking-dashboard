@@ -18,7 +18,7 @@
     }
 
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(15, 100%, 70%);
     }
   </style>
 </head>
@@ -38,13 +38,13 @@
         <div class="time-filter">
 
 
-          <input type="radio" id="daily" value="1" name="period">
+          <input class="period-filter" type="radio" id="daily" value="1" name="period" checked>
           <label for="daily">Daily</label>
 
-          <input type="radio" id="Weekly" value="2" name="period">
+          <input class="period-filter" type="radio" id="Weekly" value="2" name="period">
           <label for="Weekly">Weekly</label>
 
-          <input type="radio" id="Monthly" value="3" name="period">
+          <input class="period-filter" type="radio" id="Monthly" value="3" name="period">
           <label for="Monthly">Monthly</label>
         </div>
       </div>
@@ -58,8 +58,8 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="work-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title"></span><span id="work-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
@@ -74,8 +74,8 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="play-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title"></span><span id="play-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
@@ -91,8 +91,8 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="study-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title" ></span><span id="study-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
@@ -108,8 +108,8 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="exercise-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title"></span><span id="exercise-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
@@ -125,8 +125,8 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="social-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title"></span><span id="social-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
@@ -141,21 +141,22 @@
             <img src="./images/icon-ellipsis.svg" alt="">
           </div>
           <div class="card-details-info">
-            <p>32hrs</p>
-            <p id="previous-container"> <span>Last Week -</span><span>36</span><span>hrs</span></p>
+            <p><span id="selfeCare-period"></span><span>hrs</span></p>
+            <p id="period-container"> <span class="previous-title"></span><span id="selfCare-previous-period">36</span><span>hrs</span></p>
 
           </div>
         </div>
       </div>
     </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Abderaouf16">KHAMOUM Abderraouf</a>.
+    </div>
   </main>
 
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.frontendmentor.io/profile/Abderaouf16">KHAMOUM Abderraouf</a>.
-  </div>
+ 
 </body>
 <script src="app.js"></script>
 

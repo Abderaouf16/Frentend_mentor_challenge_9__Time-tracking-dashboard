@@ -29,10 +29,12 @@ body {
 .attribution {
   color: white;
 }
-.attribution a {
-  color: red;
-}
+
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: auto;
   background-color: var(--col--Very-dark-blue);
   font-family: var(--ff);
@@ -142,6 +144,7 @@ input[type="radio"] {
   flex-direction: column;
   color: white;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 .card-image-design {
   display: flex;
@@ -177,7 +180,7 @@ input[type="radio"] {
   font-size: 30px;
   font-weight: 300;
 }
-#previous-container {
+#period-container {
   font-size: 15px;
   color: var(--col--Pale-Blue);
   text-align: center;
@@ -186,6 +189,7 @@ input[type="radio"] {
 @media (min-width: 800px) {
   main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -253,7 +257,7 @@ input[type="radio"] {
     font-size: 2em;
     font-weight: 300;
   }
-  #previous-container {
+  #period-container {
     font-size: 10px;
     text-align: start;
     margin-top: 7px;
@@ -277,6 +281,5 @@ input[type="radio"]:checked + label {
 }
 
 .card-infos:hover {
-  transition: 0.3s ease-in-out;
   background-color: hsl(235, 46%, 35%);
 }
